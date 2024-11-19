@@ -1,0 +1,166 @@
+body {
+  background-color: #1F2937;
+  color: white;
+  margin: 0px;
+  font-family:  Roboto, Arial, sans-serif;
+}
+
+
+
+
+
+
+.header {
+  background-color:#172033 ;
+  padding:4px;
+  font-family: Oswald, Roboto, sans-serif;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.header > h1  {
+  margin-left: 40px;
+}
+.header > h1 > a {
+  text-decoration: none;
+  color: white;
+
+}
+.header > h1 > a:hover {
+  color: red;
+
+}
+
+.nav {
+    display: flex;
+    font-family: Oswald, Roboto, sans-serif;
+    justify-content:center;
+    align-content: center;
+    text-align: center;
+    list-style-type: none;
+}
+
+.nav > ul {
+  display: flex;
+  gap: 10px;
+  list-style-type: none;
+  color: white;
+}
+
+.nav > ul > li > a {
+  display: flex;
+  text-decoration: none;
+  color: white;
+  padding-top: 20px;
+  padding-right: 30px;
+}
+
+.nav > ul > li > a:hover {
+
+  color: red;
+
+}
+.f1 {
+  display: flex;
+  flex-wrap: wrap; /* Asegura que se ajuste en pantallas pequeñas */
+  justify-content: space-between;
+  align-items: center;
+  padding: 130px;
+  gap: 20px; /* Espacio entre texto e imagen */
+
+}
+
+.f1 .text {
+  flex: 1; /* El texto ocupará la mitad o más del espacio */
+  padding-right: 20px;
+
+}
+
+.f1 .text h2 {
+  font-size: 55px;
+  font-family: Raleway, sans-serif;
+
+}
+
+.f1 .text p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #e5e7eb;
+  text-align: justify;
+}
+
+.f1 .img {
+  flex: 1; /* La imagen ocupará la otra mitad */
+  display: flex;
+  justify-content: center;
+}
+
+.f1 .img img {
+  width: 800px;
+  height: auto;
+  border-radius: 10px; /* Bordes redondeados */
+}
+
+.section {
+
+  display: flex;
+  background-color: white;
+  height: 110vh;
+  width: 100%;
+
+}
+
+#title {
+  display: flex;
+  color: black;
+  font-family: Raleway, sans-serif;
+  text-align: center;
+  padding-top: 30px;
+  background-color: white;
+  padding-bottom: 35px;
+  padding-left: 850px;
+/*  margin-left: 850px; */
+/*  padding-top: 30px; */
+
+}
+
+.booksimgs {
+
+  margin-left: 370px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+
+}
+
+.booksimgs img {
+  width: 350px;
+  height: auto;
+  box-shadow: 1px 1px 10px black
+}
+
+.sectiontwo {
+    display: flex;
+    background-color: #3b475c;
+    height: 50vh;
+    width: 100%;
+
+}
+
+.sectiontwo p {
+  color: white;
+  font-style: italic;
+  font-family: Doto, Arial, sans-serif;
+  font-size: 48px;
+  text-align: center;
+  padding-top: 40px;
+}
+
+footer {
+    text-align: center;
+    padding: 40px;
+
+
+}
